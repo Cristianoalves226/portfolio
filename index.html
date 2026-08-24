@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio de Cristiano Alves — desenvolvedor web.">
+  <title>Cristiano Alves | Desenvolvedor Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio"><span>&lt;</span>CA<span>/&gt;</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a><a href="#skills">Skills</a><a href="#projetos">Projetos</a><a href="#servicos">Serviços</a><a href="#contato" class="nav-cta">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Disponível para novos projetos</p>
+        <h1>Transformo ideias em <span>experiências digitais.</span></h1>
+        <p class="hero-text">Sou Cristiano Alves, desenvolvedor web focado em criar aplicações modernas, rápidas e funcionais que ajudam pessoas e negócios a crescer.</p>
+        <div class="actions"><a class="btn primary" href="#projetos">Ver projetos <span>↗</span></a><a class="btn ghost" href="#contato">Vamos conversar</a></div>
+        <div class="stats"><div><strong>3+</strong><span>Anos estudando<br>e construindo</span></div><div><strong>20+</strong><span>Projetos<br>desenvolvidos</span></div><div><strong>100%</strong><span>Dedicação em<br>cada projeto</span></div></div>
+      </div>
+      <div class="code-card" aria-label="Exemplo de código">
+        <div class="window-bar"><i></i><i></i><i></i><span>developer.js</span></div>
+        <pre><code><span class="purple">const</span> <span class="blue">developer</span> = {
+  name: <span class="green">'Cristiano Alves'</span>,
+  role: <span class="green">'Web Developer'</span>,
+  skills: [
+    <span class="green">'JavaScript'</span>,
+    <span class="green">'PHP'</span>,
+    <span class="green">'PostgreSQL'</span>,
+    <span class="green">'HTML / CSS'</span>
+  ],
+  passion: <span class="green">'building great products'</span>
+};
+
+<span class="purple">export default</span> developer;</code></pre>
+      </div>
+    </section>
+
+    <section id="sobre" class="section container">
+      <div class="section-head"><span class="section-number">01</span><div><p class="eyebrow">Quem sou</p><h2>Sobre mim</h2></div></div>
+      <div class="about-grid"><p>Gosto de transformar problemas complexos em soluções simples, bonitas e fáceis de usar. Minha jornada na programação é movida por curiosidade, aprendizado contínuo e vontade de construir coisas que realmente façam diferença.</p><p>Atuo principalmente no desenvolvimento web, unindo front-end e back-end para entregar projetos completos. Sempre busco código limpo, boas práticas e uma experiência excelente para o usuário.</p></div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container"><div class="section-head"><span class="section-number">02</span><div><p class="eyebrow">Tecnologias</p><h2>Minhas skills</h2></div></div>
+        <div class="skills-grid">
+          <div class="skill"><span>01</span><h3>Front-end</h3><p>HTML5, CSS3, JavaScript, interfaces responsivas e acessíveis.</p></div>
+          <div class="skill"><span>02</span><h3>Back-end</h3><p>PHP, APIs REST, autenticação e desenvolvimento de sistemas.</p></div>
+          <div class="skill"><span>03</span><h3>Banco de dados</h3><p>PostgreSQL, modelagem, consultas e organização de dados.</p></div>
+          <div class="skill"><span>04</span><h3>Ferramentas</h3><p>Git, GitHub, Linux, VS Code e fluxos modernos de desenvolvimento.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section container">
+      <div class="section-head"><span class="section-number">03</span><div><p class="eyebrow">Trabalhos selecionados</p><h2>Projetos</h2></div></div>
+      <div class="projects">
+        <article class="project"><div class="project-top"><span>01</span><span>WEB APP</span></div><h3>Dashboard administrativo</h3><p>Painel responsivo para gerenciamento de dados, usuários e métricas em uma interface clara.</p><div class="tags"><span>JavaScript</span><span>PHP</span><span>PostgreSQL</span></div></article>
+        <article class="project"><div class="project-top"><span>02</span><span>WEBSITE</span></div><h3>Site institucional</h3><p>Landing page moderna com foco em performance, conversão e identidade visual profissional.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        <article class="project"><div class="project-top"><span>03</span><span>SYSTEM</span></div><h3>Sistema de gestão</h3><p>Aplicação web para centralizar processos e simplificar rotinas administrativas.</p><div class="tags"><span>PHP</span><span>API REST</span><span>SQL</span></div></article>
+      </div>
+    </section>
+
+    <section id="servicos" class="section section-alt"><div class="container">
+      <div class="section-head"><span class="section-number">04</span><div><p class="eyebrow">O que posso fazer</p><h2>Serviços</h2></div></div>
+      <div class="services"><div><span>01</span><h3>Desenvolvimento web</h3><p>Sites, landing pages e sistemas sob medida.</p></div><div><span>02</span><h3>Interfaces responsivas</h3><p>Experiências consistentes em celular, tablet e desktop.</p></div><div><span>03</span><h3>Manutenção e evolução</h3><p>Correções, melhorias e novas funcionalidades para projetos existentes.</p></div></div>
+    </div></section>
+
+    <section id="contato" class="contact container"><div class="contact-box"><p class="eyebrow">05 · Contato</p><h2>Tem uma ideia?<br><span>Vamos construir juntos.</span></h2><p>Estou aberto a projetos freelance, oportunidades e parcerias. Entre em contato e conte um pouco sobre o que você está planejando.</p><a class="btn primary" href="mailto:seuemail@exemplo.com">Enviar mensagem <span>↗</span></a></div></section>
+  </main>
+
+  <footer class="footer"><div class="container"><span>© 2026 Cristiano Alves</span><span>Desenvolvido com código e criatividade.</span><div><a href="https://github.com/Cristianoalves226" target="_blank" rel="noreferrer">GitHub</a><a href="#inicio">Voltar ao topo ↑</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
